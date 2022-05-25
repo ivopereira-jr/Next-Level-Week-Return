@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* 
+  com o tailwind da para aplicar estilos para elementos sem usar o classname
+
+  quando vc tiver cores e tamanhos que não estão por padrão no tailwind da para inserir para isso vc deve colocar entre parentes igual no estilo do body abaixo
+*/
+
+body {
+  @apply bg-[#09090a] text-zinc-100;
+}
