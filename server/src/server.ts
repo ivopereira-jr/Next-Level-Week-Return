@@ -9,6 +9,8 @@ app.use(cors());
 app.use(express.json()); // para o express entender o json
 app.use(routes);
 
-app.listen(3333, () => {
+app.listen(process.env.PORT || 3333, () => {
 	console.log('Server is running port 3333');
 });
+
+// fazendo o deploy no railway precisa disso process.env.PORT
