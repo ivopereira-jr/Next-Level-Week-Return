@@ -7,8 +7,7 @@
 		"test": "jest",
 		"build": "npx tsc",
 		"start": "node dist/server.ts",
-		"dev": "ts-node-dev --transpile-only ./src/server.ts",
-		"heroku-postbuild": "yarn prisma migrate dev && yarn build:production"
+		"dev": "ts-node-dev --transpile-only ./src/server.ts"
 	},
 	"keywords": [],
 	"author": "",
