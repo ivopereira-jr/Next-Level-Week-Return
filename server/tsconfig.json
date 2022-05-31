@@ -91,5 +91,8 @@
     /* Completeness */
     // "skipDefaultLibCheck": true,                      /* Skip type checking .d.ts files that are included with TypeScript. */
     "skipLibCheck": true /* Skip type checking all .d.ts files. */
-  }
+  },
+  "include": [
+    "src"
+  ] // isso e para converter apenas os arquivos dentro da src e nao acontecer a conversão do arquivo jest.ts para javascript por exemplo
 }
