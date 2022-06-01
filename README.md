@@ -22,7 +22,7 @@ Sobre o projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-começando">Começando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-como-contribuir">Como contribuir</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-license">License</a>
+  <a href="#-licença">Licença</a>
 </p>
 
 <img alt="Layout" src=".github/wallpaper-feedback-widget.png" width="100%">
@@ -63,8 +63,6 @@ Tecnologias utilizadas
 
 ## 💻 Começando
 
-<br/>
-
 ### Requisitos
 
 - [Node.js](https://nodejs.org/en/)
@@ -83,16 +81,16 @@ $ git clone hhttps://github.com/ivopereira-jr/Next-Level-Week-Return
 ### Backend
 
 ```bash
-# Starting from the project root folder, go to backend folder
+# A partir da pasta raiz do projeto, vá para a pasta server
 $ cd server
 
-# Install the dependencies
+# Instale as dependências
 $ yarn or npm i
 
-# To finish, run the api service
+# Execute o serviço api
 $ yarn run dev
 
-# Well done, project is started!
+# Muito bem, o projeto vai ser iniciado em.
 http://localhost:3333
 
 ```
@@ -102,15 +100,15 @@ http://localhost:3333
 _Obs.: Antes de continuar, certifique-se de ter a API em execução_
 
 ```bash
-# Starting from the project root folder, go to frontend folder
+# A partir da pasta raiz do projeto, vá para a pasta frontend
 $ cd web
 
-# Install the dependencies
+# Instale as dependências
 $ yarn ou npm i
 
-# Be sure the file 'src/services/api.ts' have the IP to your API
+# Certifique-se de que o arquivo 'src/services/api.ts' tenha o IP da sua API
 
-# Start the client
+# Iniciar o projeto
 $ yarn start
 ```
 
@@ -122,19 +120,19 @@ _Obs.: Antes de continuar, certifique-se de ter a API em execução_
 # Starting from the project root folder, go to mobile folder
 $ cd mobile
 
-# Install the dependencies
+# Instale as dependências
 $ yarn ou npm i
 
-# Be sure the file 'src/services/api.ts' have the IP to your API
+# Certifique-se de que o arquivo 'src/services/api.ts' tenha o IP da sua API
 
-# Start the app
+# Iniciar o app
 $ yarn start
 
-# If you are going to emulate with android, run this command
-# Be sure to have the emulator open
+# Se você vai emular com android, execute este comando
+# Certifique-se de ter o emulador aberto
 $ yarn android
 
-# If you are going to emulate with ios, run this command
+# Se você for emular com ios, execute este comando
 $ yarn ios
 
 ```
@@ -155,16 +153,16 @@ $ gh repo fork ivopereira-jr/Next-Level-Week-Return
 **Siga os passos abaixo**
 
 ```bash
-# Clone your fork
+# Clone seu fork
 $ git clone your-fork-url && cd NOME_DO_REPO
 
-# Create a branch with your feature
+# Crie uma ramificação com sua feature
 $ git checkout -b my-feature
 
-# Make the commit with your changes
+# Faça o commit com suas alterações
 $ git commit -m 'feat: My new feature'
 
-# Send the code to your remote branch
+# Envie o código para sua filial remota
 $ git push origin my-feature
 
 ```
