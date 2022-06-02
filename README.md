@@ -175,7 +175,6 @@ Depois que sua solicitação pull for mesclada, você poderá excluir sua ramifi
 
 Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](./LICENSE.md) para obter detalhes.
 
----
 
 <br/>
 
